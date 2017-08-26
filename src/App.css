@@ -56,6 +56,6 @@ body {
 
 .notesFooter {
   display: flex;
-  flex: 1 1 5%;
+  flex: 1 1 8%;
   background-color: rgba(0,0,0,0.5);
 }
