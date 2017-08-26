@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './App.css';
 import Note from './Note/Note';
 
 
@@ -19,9 +20,9 @@ class App extends Component {
 
   render() {
     return (
-       <div className="noteswarpper">
-         <div className="noteHeader">
-           <div className="heading"><h1>React and Firebase To-Do List</h1></div>
+       <div className="notesWrapper">
+         <div className="notesHeader">
+           <div className="heading">React and Firebase To-Do List</div>
          </div>
          <div className="notesBody">
            {
@@ -32,9 +33,7 @@ class App extends Component {
              })
            }
          </div>
-
           <div className="notesFooter">This is footer </div>
-
        </div>
     );
   }

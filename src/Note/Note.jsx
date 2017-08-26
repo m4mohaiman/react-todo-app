@@ -21,7 +21,7 @@ class Note extends Component {
 }
 
 Note.PropTypes ={
-  noteContent : PropTypes.string 
+  noteContent : PropTypes.string
 }
 
 
